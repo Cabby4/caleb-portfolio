@@ -242,8 +242,6 @@ function App() {
                 ))}
           </div>
         </section>
-
-        <section className="content-section container" id="projects">
           
 <section className="content-section container" id="experience">
   <p className="section-label">03 / EXPERIENCE</p>
@@ -313,137 +311,97 @@ function App() {
   </div>
 </section>
 
-          <p className="section-label">03 / SELECTED WORK</p>
-          <h2>Projects I've <span>built.</span></h2>
+          
+<section className="projects-section" id="projects">
+  <div className="container">
+    <p className="section-label">03 / SELECTED WORK</p>
+    <h2>Projects I've <span>built.</span></h2>
 
-          <div className="projects-grid">
-            <article className="project-card">
-              
-<article className="project-card">
-  <div className="project-number">PROJECT / 02</div>
+    <div className="projects-grid">
+      <article className="project-card">
+        <div className="project-number">PROJECT / 01</div>
+        <h3>ScholarisIQ</h3>
 
-  <h3>Cabby Sports</h3>
+        <p>
+          A habit-driven technology learning platform that helps
+          learners develop career-ready skills through interactive
+          quizzes and game-based engagement. I contributed quiz
+          and game features to make learning more engaging.
+        </p>
 
-  <p>
-    A full-stack sports media platform delivering football news,
-    fixtures, results, transfers, and team information. Includes
-    an administrative dashboard for managing sports content,
-    powered by a React frontend and an Express.js backend.
-  </p>
+        <div className="project-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB</span>
+          <span>JWT</span>
+        </div>
 
-  <div className="project-tags">
-    <span>React</span>
-    <span>Bootstrap</span>
-    <span>Node.js</span>
-    <span>Express.js</span>
-    <span>MongoDB Atlas</span>
-    <span>JWT</span>
+        <div className="project-actions">
+          <a
+            href="https://frontend-zeta-one-18.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            Live Demo <FaArrowRight />
+          </a>
+
+          <a
+            href="https://github.com/Cabby4/sch"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link project-github"
+          >
+            <FaGithub /> Source Code
+          </a>
+        </div>
+      </article>
+
+      <article className="project-card">
+        <div className="project-number">PROJECT / 02</div>
+        <h3>Cabby Sports</h3>
+
+        <p>
+          A full-stack sports media platform featuring football
+          news, fixtures, results, transfers, and team information.
+          Includes an administrative dashboard for managing
+          sports content, built with React, Node.js, Express,
+          and MongoDB Atlas.
+        </p>
+
+        <div className="project-tags">
+          <span>React</span>
+          <span>Bootstrap</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB Atlas</span>
+          <span>JWT</span>
+        </div>
+
+        <div className="project-actions">
+          <a
+            href="https://cabbysports.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            Live Demo <FaArrowRight />
+          </a>
+
+          <a
+            href="https://github.com/Cabby4/cabby-sports-backend"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link project-github"
+          >
+            <FaGithub /> Backend Code
+          </a>
+        </div>
+      </article>
+    </div>
   </div>
-
-  <div className="project-actions">
-    <a
-      href="https://cabbysports.vercel.app/"
-      target="_blank"
-      rel="noreferrer"
-      className="project-link"
-    >
-      Live Demo <FaArrowRight />
-    </a>
-
-    <a
-      href="https://github.com/Cabby4/cabby-sports-backend"
-      target="_blank"
-      rel="noreferrer"
-      className="project-link project-github"
-    >
-      <FaGithub /> Backend Code
-    </a>
-  </div>
-</article>
-
-              
-              <div className="project-number">PROJECT / 01</div>
-              <h3>ScholarisIQ</h3>
-              <p>
-                A habit-driven learning platform designed to help learners
-                develop technology skills through engaging quizzes and
-                interactive game features.
-              </p>
-              <div className="project-tags">
-                <span>Node.js</span><span>Express</span><span>MongoDB</span>
-              </div>
-              <a
-                href="https://frontend-zeta-one-18.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Project <FaArrowRight />
-              </a>
-            </article>
-
-            <article className="project-card">
-              
-<article className="project-card">
-  <div className="project-number">PROJECT / 01</div>
-
-  <h3>ScholarisIQ</h3>
-
-  <p>
-    A habit-driven technology learning platform designed to help
-    learners build career-ready skills through interactive quizzes
-    and game-based engagement. I contributed quiz and game features
-    to make learning more engaging and interactive.
-  </p>
-
-  <div className="project-tags">
-    <span>React</span>
-    <span>Node.js</span>
-    <span>Express.js</span>
-    <span>MongoDB</span>
-    <span>JWT</span>
-  </div>
-
-  <div className="project-actions">
-    <a
-      href="https://frontend-zeta-one-18.vercel.app/"
-      target="_blank"
-      rel="noreferrer"
-      className="project-link"
-    >
-      Live Demo <FaArrowRight />
-    </a>
-
-    <a
-      href="https://github.com/Cabby4/sch"
-      target="_blank"
-      rel="noreferrer"
-      className="project-link project-github"
-    >
-      <FaGithub /> Source Code
-    </a>
-  </div>
-</article>
-
-              <div className="project-number">PROJECT / 02</div>
-              <h3>Cabby Sports</h3>
-              <p>
-                A sports media platform featuring football news, fixtures,
-                results, transfers, team information, and an administrative
-                dashboard for managing content.
-              </p>
-              <div className="project-tags">
-                <span>React</span><span>Express</span><span>MongoDB</span>
-              </div>
-              <a
-                href="https://cabbysports.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Project <FaArrowRight />
-              </a>
-            </article>
-          </div>
-        </section>
+</section>
 
         <section className="contact-section" id="contact">
           <div className="container contact-inner">
@@ -482,5 +440,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
