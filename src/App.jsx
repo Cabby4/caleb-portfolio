@@ -403,6 +403,23 @@ function App() {
   </div>
 </section>
 
+
+<div className="backend-projects-link">
+  <p>Want to explore more of my backend projects?</p>
+
+  <a
+    href="https://github.com/Cabby4"
+    target="_blank"
+    rel="noreferrer"
+    className="project-link project-github"
+  >
+    <FaGithub />
+    Explore My Backend Projects
+    <FaArrowRight />
+  </a>
+</div>
+
+
         <section className="contact-section" id="contact">
           <div className="container contact-inner">
             <p className="section-label">04 / GET IN TOUCH</p>

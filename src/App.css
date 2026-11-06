@@ -1132,3 +1132,29 @@ html {
   border: 4px solid #10b981;
   box-shadow: 0 0 30px rgba(16, 185, 129, 0.25);
 }
+
+
+.backend-projects-link {
+  text-align: center;
+  padding: 30px 20px 60px;
+}
+
+.backend-projects-link p {
+  margin-bottom: 16px;
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.backend-projects-link a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.backend-projects-link a:hover {
+  transform: translateY(-3px);
+}
